@@ -1,0 +1,21 @@
+
+คำสั่ง
+php artisan serve  
+php artisan route:list  เเสดง router ทั้งหมด
+php artisan make:controller name  สร้าง controller
+php artisan make:middleware name สร้าง middleware
+php artisan migrate เอาข้อมูล migrate ไปเก็บไว้ใน database
+php artisan key:generate  สร้าง key 
+
+php artisan make:model name -m
+php artisan migrate:fresh --seed สร้างฐานข้อมูลตาม seed ทั้งหมด
+
+
+function laravel
+diffForHumans() นับเวลาว่านานเท่าไรเเล้ว ดึงผ่าน model
+Carbon\Carbon::parse($row->created_at)->diffForHumans() ดึงผ่าน database Query Builder
+
+
+
+
+@csrf  ดักการป้อนข้อมูล script

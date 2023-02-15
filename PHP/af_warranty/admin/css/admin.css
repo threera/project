@@ -1,0 +1,52 @@
+.red1 {
+    color: red;
+    font-weight: 600;
+}
+
+.green1 {
+    color: green;
+    font-weight: 600;
+}
+
+.importexcel {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ion-icon {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+
+.removeRow {
+    background-color: #e74a3b !important;
+    color: #FFFFFF;
+}
+
+.container-fluid .font-weight-bold.text-primary {
+    display: flex;
+    align-items: center;
+}
+
+/* 
+#table-text-create h4 {
+    font-size: 1.2rem !important;
+}
+
+#dataTable tbody {
+    display: block;
+    height: 400px;
+    overflow: auto;
+}
+
+#dataTable thead,
+#dataTable tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+} */

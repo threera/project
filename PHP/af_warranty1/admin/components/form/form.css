@@ -1,0 +1,114 @@
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #37517e;
+}
+
+hr {
+    color: #37517e;
+}
+
+.form-control,
+.form-select {
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px !important;
+    font-size: 20px;
+}
+
+.form-label {
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.fo-button button.btn-primary:hover {
+    background-color: aliceblue;
+    border: 2px solid #37517e;
+    color: #37517e;
+    font-weight: 700;
+}
+
+.fo-button button.btn-warning:hover {
+    background-color: aliceblue;
+    border: 2px solid #f6c23e;
+    color: #f6c23e;
+    font-weight: 700;
+}
+
+.fo-button .btn-primary {
+    background-color: #37517e;
+    border: 2px solid #37517e;
+}
+
+
+#SerialNumber,
+#SerialNumber_Start,
+#SerialNumber_End,
+#Modal {
+    text-transform: uppercase;
+}
+
+.top-30 {
+    font-size: 30px;
+    top: 30px;
+    color: #837b7b;
+}
+
+.top-82 {
+    font-size: 30px;
+    top: 30px;
+    color: #837b7b;
+}
+
+.text-break p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #6c757d;
+    font-size: 18px;
+}
+
+.container-fluid {
+    width: 66%;
+}
+
+@media (max-width: 1400px) {
+    .container-fluid {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container-fluid {
+        width: 80%;
+    }
+
+    .ssss {
+        padding-top: 1.5rem;
+    }
+}
+
+
+.btn-disabled {
+    cursor: not-allowed !important;
+    pointer-events: none !important;
+    opacity: .65 !important;
+}
+
+#Customer, input[type=checkbox]{
+    box-sizing: border-box;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+}
+.form-check label {
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+
+#sell, input[type=checkbox]{
+    box-sizing: border-box;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+}

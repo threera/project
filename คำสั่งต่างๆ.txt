@@ -1,0 +1,76 @@
+sanity คลาวชั่วคราวทำหลังบ้าน
+https://randomuser.me/ api
+
+
+npm i @sanity/cli
+
+#react
+คำสั่ง
+-npx creact-react-app .
+
+package
+-nodemon
+-react-router-dom 
+-jsonwebtoken
+-axios ใช้ยิง api
+-styled-components
+-postcss-safe-parser ตัวแยกวิเคราะห์ CSS ที่ทนต่อข้อผิดพลาดสำหรับPostCSSซึ่งจะค้นหาและแก้ไขข้อผิดพลาดทางไวยากรณ์ สามารถแยกวิเคราะห์อินพุตใดๆ ได้
+React Fast Marquee  ทำสไลข้างๆ
+yarn add react-rating-stars-component ดาวความพอใจ
+Swiper ทำสไลเดอร์ ภาพ
+useState
+
+
+#next js
+npx create-next-app name
+npx create-next-app -e with-tailwindcss name
+yarn dev
+
+react-icons
+react-social-icons
+@next/font
+@paypal/react-paypal-js ใช้ในการเชื่อต่อ paypal ง่ายขึ้น โหลด SDK
+@reduxjs/toolkit  ใช้ในการจัดการ Stores ง่ายขึ้น
+เก็บข้อมูลใน Redux Store ลงใน Local Storage ด้วย Redux-Persist
+cookie
+redux ใช้ในการจัดการ state
+@eslint/config ใช้ในการเขียน โค้ดให้มีข้อผิดพลาดน้อยลงเเละเขียนโค้ดให้ถูกต้อง
+react-query ใช้ในการจัดการ query ข้อมูล
+
+
+
+#noed js
+npm init
+express 
+cors ใช้สำหรับติดต่อ
+mongoose 
+socket.io สำหรับทำเเชท
+store 
+
+
+
+#git
+git clone --single-branch -b 'name' link
+rm -rf .git
+
+git config user.name "threerapat pitarapang"
+git config user.email ""
+git config --list --show-origin --show-scope
+
+U คือ ยังไม่ถูกติดตามของ git
+A ติดตามการเปลี่ยนเเปลงเเล้ว
+M มีการเเก้ไข
+
+cd เข้าไป ไฟล์ที่ต้องการ จะทำการ git
+git status เช็คสถานพไฟล์ เเก้ไข
+git add . บันทึกไฟล์ที่ต้องการเเก้ไขทั้งหมด หรือที่ละไฟล์ เก็บไว้ ใน flie
+git commit -m "first commit" บันทึกไฟล์ที่ต้องการเเก้ไขทั้งหมด  ลงในคอมพิวเตอร์ หรือ git commit
+git branch -M main
+git remote add origin http อ้างอิงเส้นทางที่จะ upload ไป
+git log เเสดงการเปลี่ยนเเปลงทั้งหมด
+git push -u origin master  update ขึ้น git
+git remote remove origin เปลี่ยนเส้นทาง URL
+
+
+
+
